@@ -1,0 +1,94 @@
+<!-- AI used to better understand assignment: Codex, Open AI, and virtual studio agent. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Lily Gannone | Get In Touch</title>
+  <meta name="description" content="Get in touch with Lily Gannone." />
+  <link rel="canonical" href="contact.html" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sacramento&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav__brand" href="index.html">Lily Gannone</a>
+
+      <div class="nav__links">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="skills.html">My Skills</a>
+        <a class="nav__link is-active" href="contact.html" aria-current="page">Get In Touch</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page" aria-label="Contact page">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love cooking as much as I do!</h3>
+        <p class="contact-message">Let's talk about how awesome cooking and cats are! We can code while we eat some yummy dishes!</p>
+        <a class="btn" href="mailto:gmail@hawaii.edu">CONTACT ME</a>
+      </div>
+
+      <hr />
+
+      <!-- Contact form (HTML5 validation) -->
+      <section class="form-card" aria-label="Contact form">
+        <h2>Contact Form</h2>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-grid">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+
+            <label class="form-grid__full">
+              Subject
+              <input type="text" name="subject" required minlength="3" />
+            </label>
+
+            <label class="form-grid__full">
+              Message
+              <textarea name="message" required minlength="10" rows="6"></textarea>
+            </label>
+          </div>
+
+          <button class="btn" type="submit">Send</button>
+          <p class="form-note">This form is HTML-only (no backend). The mail link above still works.</p>
+        </form>
+      </section>
+
+      <div class="cta-row">
+        <a class="btn btn--ghost" href="index.html">Back Home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom-container">
+    <a class="footer-link" href="#">LinkedIn</a>
+    <a class="footer-link" href="#">Twitter</a>
+    <a class="footer-link" href="#">GitHub</a>
+    <p class="copyright">© Lily Gannone. This CodePen was created with assistance from OpenAI for layout and hover interactions.</p>
+  </footer>
+</body>
+</html>
