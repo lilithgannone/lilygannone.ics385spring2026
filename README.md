@@ -62,4 +62,4 @@ HW2: Bio Page Original - [bio.html](week2/hw2/bio.html), [styles.css](week2/hw2/
 HW2: Bio Page (Improved) - [Improved Live Site](https://lilithgannone.github.io/ics385spring2026/week2/hw2/improvedhw2/)
 
 ### Week 3 – JavaScript
-HW 3a: Dicee Game - [dicee.html](week3/hw3a/dicee.html), [styles.css](week3/hw3a/styles.css) <br>
+HW 3a: Dicee Game - [dicee.html](week3/hw3a/dicee.html), [styles.css](week3/hw3a/styles.css) [index.js](week3/hw3a/index.js)<br>
