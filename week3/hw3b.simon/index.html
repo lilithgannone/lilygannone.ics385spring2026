@@ -1,0 +1,131 @@
+<!--Name: Lilith Gannone
+Date: 02/01/2026
+Course: ICS 385 Spring 2026
+Assignment: Week 3b - Extension of Simon Code
+Notes: To write this code, I first used Codex on virtual studio to understand the existing code by asking it to add beginner-friendly guiding comments. I then thought about what I wanted to add to the game and considered how I could make the game more user friendly. I created many fairly lengthy prompts for Codex to describe what I wanted. I won’t include them all in their entirety, but simply, I guided Codex to help me add new features such as clearer instructions, improved user interface elements, “practice” and “master” modes, visual feedback for users, and overall design enhancements. I wanted to make these changes while keeping the existing game logic the same, so I indicated that in my prompts. When each phase of changes was complete, I reviewed the updated game and created a new script to apply whatever additional changes I wanted. Once all my desired changes were completed, I asked that beginner friendly comments be added to the updated code to help me understand the changes. I then reviewed the code and the final game to ensure everything looked good. 
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Beginner note: The <head> holds page settings, not visible content. -->
+  <meta charset="utf-8">
+  <!-- Beginner note: This makes the layout scale nicely on phones/tablets. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Beginner note: The text shown in the browser tab. -->
+  <title>Simon</title>
+  <!-- Beginner note: This links the CSS file that styles the page. -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Beginner note: This loads Google Fonts used by the page. -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Space+Grotesk:400,600" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Beginner note: The <body> holds everything the user can see and interact with. -->
+  <!-- // AI-Generated -->
+  <div class="ui-shell game-card">
+    <!-- Beginner note: Outer container for the whole game card layout. -->
+    <!-- // AI-Generated -->
+    <header class="page-header">
+      <!-- Beginner note: Header area for the title and instructions. -->
+      <!-- // AI-Generated -->
+      <h1 id="game-title">Simon Game</h1>
+      <!-- Beginner note: Main page title. -->
+      <!-- // AI-Generated -->
+      <div id="instruction-banner" class="instruction-banner">
+        <!-- Beginner note: Short instructions shown at the top. -->
+        <p>
+          Choose a mode, then press Start to begin.<br>
+          Watch the sequence, then repeat it in order.<br>
+          Use Replay when available.
+        </p>
+        <!-- Beginner note: Button that toggles the full instructions panel. -->
+        <button id="more-info-toggle" class="link-button" type="button" aria-expanded="false" aria-controls="more-info-panel">Click for full instructions</button>
+      </div>
+      <!-- // AI-Generated -->
+      <div id="more-info-panel" class="more-info hidden" role="region" aria-hidden="true">
+        <!-- Beginner note: Hidden panel that shows detailed rules when opened. -->
+        <h2>How to Play</h2>
+        <ul>
+          <li><strong>How to start:</strong> Choose a mode, then press Start.</li>
+          <li><strong>Sequence rule:</strong> Watch the full sequence, then repeat the full sequence.</li>
+          <li><strong>Practice mode:</strong> 3 lives, unlimited replays. On mistake you lose 1 life and retry the same level; at 0 lives, game over.</li>
+          <li><strong>Normal mode:</strong> 0 lives, exactly 3 replays per game (counter shown). On mistake: game over.</li>
+          <li><strong>Master mode:</strong> 0 lives, 0 replays, faster playback for extra challenge.</li>
+          <li><strong>Replay rules:</strong> Replay shows the full current sequence; disabled during playback.</li>
+          <li><strong>Checkpoints:</strong> Try to reach Levels 5, 10, 15, and 20 to earn a celebration. See how high you can get and aim for Level 100 for the ultimate celebration!</li>
+          <li><strong>Switching modes:</strong> Changing modes restarts the game immediately (no refresh needed).</li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- // AI-Generated -->
+    <main class="game-shell">
+      <!-- Beginner note: Main game area (status, controls, and buttons). -->
+      <!-- // AI-Generated -->
+      <div id="checkpoint-burst" class="checkpoint-burst" aria-hidden="true"></div>
+      <!-- Beginner note: Decorative element for checkpoint celebrations. -->
+
+      <!-- // AI-Generated -->
+      <div class="status-bar hud">
+        <!-- Beginner note: Status bar that shows messages and counters. -->
+        <div id="status-message" class="status-pill">Press Start to begin</div>
+        <!-- Beginner note: Text feedback for the player (current status). -->
+        <div class="counters">
+          <!-- Beginner note: Counters for lives and replays (shown/hidden by JS). -->
+          <span id="lives-counter" class="counter hidden">Lives: 3</span>
+          <span id="replay-counter" class="counter hidden">Replays: 3</span>
+          <!-- // AI-Generated -->
+          <span id="master-indicator" class="counter master-indicator hidden">No Lives. No Replays</span>
+          <!-- Beginner note: Extra label for master mode rules. -->
+        </div>
+      </div>
+
+      <!-- // AI-Generated -->
+      <div class="controls">
+        <!-- Beginner note: Section holding mode buttons and action buttons. -->
+        <div class="modes segmented">
+          <!-- Beginner note: Mode selector buttons (practice/normal/master). -->
+          <button class="mode-btn" data-mode="practice" id="mode-practice" type="button">Practice</button>
+          <button class="mode-btn" data-mode="normal" id="mode-normal" type="button">Normal</button>
+          <button class="mode-btn" data-mode="master" id="mode-master" type="button">Master</button>
+        </div>
+        <div class="actions">
+          <!-- Beginner note: Action buttons for starting and replaying. -->
+          <button id="start-button" class="action-btn" type="button">Start</button>
+          <button id="replay-button" class="action-btn" type="button">Replay</button>
+        </div>
+      </div>
+
+      <h2 id="level-title">Press Start to begin</h2>
+      <!-- Beginner note: Game level/status heading updated by JavaScript. -->
+      <div class="container">
+        <!-- Beginner note: Wrapper for the four Simon color buttons. -->
+        <div class="row">
+          <!-- Beginner note: First row of color buttons. -->
+
+          <div type="button" id="green" class="btn green"></div>
+
+          <div type="button" id="red" class="btn red"></div>
+        </div>
+
+        <div class="row">
+          <!-- Beginner note: Second row of color buttons. -->
+
+          <div type="button" id="yellow" class="btn yellow"></div>
+          <div type="button" id="blue" class="btn blue"></div>
+
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Beginner note: jQuery library used by game.js for DOM and events. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Beginner note: Main game logic (behaviors and interactions). -->
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>
