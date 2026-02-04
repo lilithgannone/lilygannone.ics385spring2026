@@ -5,10 +5,10 @@
 **Date:** 02/03/2026<br>
 **Course:** ICS 385 Spring 2026<br>
 **Assignment:** Week 4a - Basic NodeJS<br>
-**Disclaimer:** OpenAI used to understand code, no AI used to write the additions to the code apart from autofill directly from Visual Studio 
+**Disclaimer:** OpenAI used to understand code, no AI used to write the additions to the code, apart from autofill directly from Visual Studio 
 
 ## Overview
-This project is an extension of Hero Node js code. The intial Hero code was extended to include five NPM packages that save to five individual txt files. Comments where these additions occured can be viewed in the 'index.js' file. 'npm install' was used to install the two additional packages that did not exist in the inital code. With the program running, local js server ('http://127.0.0.1:3000/') can be opened to view the outputs. 
+This project is an extension of the Hero Node.js code. The intial Hero code was extended to include five NPM packages that save to five individual txt files. Comments where these additions occurred can be viewed in the 'index.js' file. 'npm install' was used to install the two additional packages that did not exist in the initial code. With the program running,the  local js server ('http://127.0.0.1:3000/') can be opened to view the outputs. 
 
 ## NPM Packages Used
 - superheroes
@@ -34,3 +34,4 @@ This project is an extension of Hero Node js code. The intial Hero code was exte
 - Split the original output into five separate txt files
 
 - Updated the server output to display all five outputs
+
