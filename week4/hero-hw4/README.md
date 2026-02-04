@@ -1,10 +1,10 @@
 # Hero-HW4
 
 ## Assignment Details
-**Name:** Lilith Gannone
-**Date:** 02/03/2026
-**Course:** ICS 385 Spring 2026
-**Assignment:** Week 4a - Basic NodeJS
+**Name:** Lilith Gannone<br>
+**Date:** 02/03/2026<br>
+**Course:** ICS 385 Spring 2026<br>
+**Assignment:** Week 4a - Basic NodeJS<br>
 **Disclaimer:** OpenAI used to understand code, no AI used to write the additions to the code apart from autofill directly from Visual Studio 
 
 ## Overview
@@ -32,4 +32,5 @@ This project is an extension of Hero Node js code. The intial Hero code was exte
 - Added two npm packages: popular-movie-quotes and famous-last-words
 - Extended the Hero code to use five npm packages
 - Split the original output into five separate txt files
+
 - Updated the server output to display all five outputs
