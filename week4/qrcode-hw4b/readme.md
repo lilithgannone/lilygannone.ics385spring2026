@@ -21,7 +21,8 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Wrote the instructional section and generated the banner with some assistance from AI for syntax.
 - Reviewed code throughout the prompting process to ensure functionality.
 - Tested program.
-- Manually troubleshot the cybersecurity message function, as the initial formatting was not ideal. It's still not ideal, but the current formatting is a lot better than the initial formatting. 
+- Manually troubleshot the cybersecurity message function, as the initial formatting was not ideal. It's still not ideal, but the current formatting is a lot better than the initial formatting.
+- Reviewed completed code. Although I don't understand it all, reviewing helped give me a better understanding of the program. 
 
 ## Tests
 - Tested the initial program to see what needed to be changed. 
@@ -59,6 +60,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
