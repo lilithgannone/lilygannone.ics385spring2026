@@ -35,11 +35,10 @@ Hello! Welcome to the QR code generator.
 This program will ask you to type in a URL, then it will create a QR code image and a text file with the URL you entered. You can name your files, and they will save in the output folder in the same directory as this script. 
 
 Steps:
-1. When prompted respond Y or N to the question "Would you like to generate a QR code?".
-2. Type in your URL when prompted. Press enter when you're done. 
-Please note, the  URL must be valid. URLs missing "http://" or "https://" will be autocorrected to include "https://". Other invalid URLs may cause an error.
-3. The program will ask you to name the QR code image file (without the extension). Type in your desired file name and press enter. If blank, a default name will be used.
-4. Choose a border style for your QR code from the options provided. You are selecting the width of the area around the QR code. Type in your selection as prompted and press enter.
+1. When prompted, respond Y or N to the question "Would you like to generate a QR code?"
+2. Type in your URL when prompted. Press enter when you're done. Please note that the  URL must be valid. URLs missing "http://" or "https://" will be autocorrected to include "https://". Other invalid URLs may cause an error.
+3. The program will ask you to name the QR code image file (without the extension). Type in your desired file name and press Enter. If blank, a default name will be used.
+4. Choose a border style for your QR code from the options provided. You are selecting the width of the area around the QR code. Type in your selection as prompted and press Enter.
 5. You will be prompted with a message that asks if you are complete. Follow the instructions as prompted.
 6. You will be prompted to select an image file type. The QR code image will save as a PNG or SVG file. If you select SVG, you will have the option to include a cybersecurity disclaimer in the image. The disclaimer reads: "Scan Me. Please be mindful of quishing attacks when scanning QR codes". If you choose to include the disclaimer, it will be added as text below the QR code within the same SVG file.
 7. The program will also save the URL you entered into a text file named after your chosen file name with a .txt extension.
@@ -61,7 +60,7 @@ showBanner();
 showInstructions();
 
 // Initial AI comments to increase understanding: Start the inquirer prompt flow.
-//Human update:updated prompt message.
+//Human update: updated prompt message.
 // AI-Generated (Codex): Keep the prompt flow but extend it with validation, options, and looping.
 const OUTPUT_DIR = "output";
 
@@ -81,6 +80,7 @@ function sanitizeBaseName(name) {
 }
 
 // AI-Generated (Codex): Add a disclaimer below the SVG without altering the QR itself.
+// Human added: adjusted sizing
 function addDisclaimerToSvg(svgText, disclaimer) {
   // AI-Generated (Codex): Prefer viewBox for reliable sizing with qr-image SVG output.
   const viewBoxMatch = svgText.match(/\bviewBox="([^"]+)"/i);
@@ -403,6 +403,6 @@ main();
 /* 
 Initial AI comments to increase understanding: Steps this script follows.
 Initial AI comments to increase understanding: 1. Use the inquirer npm package to get user input.
-Initial AI comments to increase understanding: 2. Use the qr-image npm package to turn the user entered URL into a QR code image.
+Initial AI comments to increase understanding: 2. Use the qr-image npm package to turn the user-entered URL into a QR code image.
 Initial AI comments to increase understanding: 3. Create a txt file to save the user input using the native fs node module.
 */
