@@ -11,12 +11,22 @@
 This project is an extension of the QR code project program. Students were tasked to take the initial QR project code and add functionalities, making it more user-friendly and safer for users to store their work without losing their previous QR codes. I began the project by asking Codex to add comments to the initial code so I understood what it did. I then thought about the additions I wanted to make. I created prompts and added a instuctional portion to the code to reflect these changes. I then utilized Codex to add the functionalities, periodically checking the program and making additional changes as needed. 
 
 ## What I Did
-- Wrote the entirety of this readme.md file. 
+- Researched QR codes for security, formatting, and ideal file type information. Investigated popular QR code generation sites. Went through the Udemy project. 
+- Wrote the entirety of this readme.md file.
 - Created the plans and wrote the prompts for the added functionalities. 
 - Wrote the instructional section and generated the banner with some assistance from AI for syntax.
 - Reviewed code throughout the prompting process to ensure functionality.
 - Tested program.
 - Manually troubleshot the cybersecurity message function, as the initial formatting was not ideal.
+
+## Tests
+- Tested the initial program to see what needed to be changed. 
+- Ran initial test after I manually adjusted the instructions prior to AI coding help.
+- Ran test on program after I prompted Codex to make changes (seen in added functionality).
+- Some portions of the program were buggy or needed adjustment. Prompted for changes and tested the program by generating QR codes.
+- Adjusted the sizing of the cybersecurity message and created QR codes about 5-10 times, adjusting the formatting.
+- Ran a final test by creating a new folder and running the code as if I were a new user.
+- Generated final QR codes- both PNG and SVG. 
 
 ## Initial functionality 
 The initial program simply prompted for a URL with no validation measures and generated a QR code to qr_img.png, overwriting the existing file. A text file would also be generated, including the URL that was input by the user. No instructions were given to users and prompts were very minimal. 
@@ -48,6 +58,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
