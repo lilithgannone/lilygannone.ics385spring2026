@@ -15,7 +15,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 
 ## What I Did
 - Researched QR codes for security, formatting, and ideal file type information. Investigated popular QR code generation sites. Went through the Udemy project. 
-- Wrote the entirety of this readme.md file.
+- Wrote the readme.md file.
 - Created the plans and wrote the prompts for the added functionalities.
 - Workshopped with AI about my ideas for the changes to see what's doable and realistic for a beginner programmer using AI assistance.
 - Wrote the instructional section and generated the banner with some assistance from AI for syntax.
@@ -59,6 +59,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
