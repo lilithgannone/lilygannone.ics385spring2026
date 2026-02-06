@@ -70,3 +70,5 @@ HW 3b: Link to Simon Game - [Simon Game](https://lilithgannone.github.io/ics385s
 ### Week 4 - NodeJS
 HW 4a: Basic NodeJS - [index.js](week4/hero-hw4/index.js), [package.json](week4/hero-hw4/package.json), [package-lock.json](week4/hero-hw4/package-lock.json)<br>
 HW 4a: Read Me - [README for HW 4a](week4/hero-hw4/README.md)
+HW 4b: QR Code Project - [index.js](week4/qrcode-hw4b/index.js), [solution.js](week4/qrcode-hw4b/solution.js), [package.json](week4/qrcode-hw4b/package.json), [package-lock.json](week4/qrcode-hw4b/package-lock.json)<br>
+HW 4b: Read Me - [README for HW 4b](week4/qrcode-hw4b/README.md)
