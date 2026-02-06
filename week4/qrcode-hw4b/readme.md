@@ -53,12 +53,13 @@ The initial program simply prompted for a URL with no validation measures and ge
 - README.md
 - output file generated on the user's device for created QR codes 
 
-## How to begin:
+## How to begin (as if this were for someone utilizing the program):
 - Open the QR Code Project folder in VS Code.
 - Open a new terminal in VS Code.
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
