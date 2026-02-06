@@ -10,7 +10,7 @@
 ## Overview
 This project is an extension of the QR code project program. Students were tasked to take the initial QR project code and add functionalities to it, making it more user-friendly and safer for users to store their work without losing their previous QR codes. I began the project by asking Codex to add comments to the initial code so I understood what it did. I then thought about the additions I wanted to make. I created prompts and added an instructional portion to the code to reflect these changes. I then utilized Codex to add the functionalities, periodically checking the program and making additional changes as needed. 
 
-## Initial functionality 
+## Initial Functionality 
 The initial program simply prompted for a URL with no validation measures and generated a QR code to qr_img.png, overwriting the existing file. A text file would also be generated, including the URL that was input by the user. No instructions were given to users, and prompts were very minimal. 
 
 ## What I Did
@@ -32,7 +32,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Ran a final test by creating a new folder and running the code as if I were a new user.
 - Generated final QR codes- both PNG and SVG. 
 
-## Added functionality
+## Added Functionality
 - Start screen and instructions.
 - Guiding messages for users that create a more streamlined process.
 - Validation of URLs to ensure only URLs with valid formatting can be used to generate a QR code.
@@ -53,12 +53,13 @@ The initial program simply prompted for a URL with no validation measures and ge
 - README.md
 - output file generated on the user's device for created QR codes 
 
-## How to begin (as if this were for someone utilizing the program):
+## How to Begin (as if this were for someone utilizing the program):
 - Open the QR Code Project folder in VS Code.
 - Open a new terminal in VS Code.
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
