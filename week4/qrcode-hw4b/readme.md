@@ -13,11 +13,12 @@ This project is an extension of the QR code project program. Students were taske
 ## What I Did
 - Researched QR codes for security, formatting, and ideal file type information. Investigated popular QR code generation sites. Went through the Udemy project. 
 - Wrote the entirety of this readme.md file.
-- Created the plans and wrote the prompts for the added functionalities. 
+- Created the plans and wrote the prompts for the added functionalities.
+- Workshopped with AI about my ideas for the changes to see what's doable and realistic for a beginner programmer using AI assistance.
 - Wrote the instructional section and generated the banner with some assistance from AI for syntax.
 - Reviewed code throughout the prompting process to ensure functionality.
 - Tested program.
-- Manually troubleshot the cybersecurity message function, as the initial formatting was not ideal.
+- Manually troubleshot the cybersecurity message function, as the initial formatting was not ideal. It's still not ideal, but the current formatting is a lot better than the initial formatting. 
 
 ## Tests
 - Tested the initial program to see what needed to be changed. 
@@ -58,6 +59,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
