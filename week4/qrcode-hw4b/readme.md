@@ -5,7 +5,7 @@
 **Date:** 02/06/2026<br>
 **Course:** ICS 385 Spring 2026<br>
 **Assignment:** Week 4b - QR Code<br>
-**Disclaimer:** AI used to understand and write portions of this code. AI-generated code is labeled. My contributions are labeled. The AI comments created to increase my understanding are also included. 
+**Disclaimer:** AI (Codex) used to understand and write portions of this code. AI-generated code is labeled. My contributions are labeled. The AI comments created to increase my understanding are also included. 
 
 ## Overview
 This project is an extension of the QR code project program. Students were tasked to take the initial QR project code and add functionalities to it, making it more user-friendly and safer for users to store their work without losing their previous QR codes. I began the project by asking Codex to add comments to the initial code so I understood what it did. I then thought about the additions I wanted to make. I created prompts and added an instructional portion to the code to reflect these changes. I then utilized Codex to add the functionalities, periodically checking the program and making additional changes as needed. 
@@ -59,6 +59,7 @@ The initial program simply prompted for a URL with no validation measures and ge
 - Install dependencies by running: `npm install`
 - Start the program by running: `node solution.js`
 - Read the instructions, follow the prompts.
+
 
 
 
