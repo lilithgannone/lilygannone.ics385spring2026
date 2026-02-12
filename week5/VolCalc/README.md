@@ -5,7 +5,7 @@
 **Name:** Lilith Gannone<br>
 **Date:** 02/13/2026<br>
 **Course:** ICS 385 Spring 2026<br>
-**Assignment:** Week 5c - VolCal<br>
+**Assignment:** Week 5c - VolCalc<br>
 
 ## Overview
 
