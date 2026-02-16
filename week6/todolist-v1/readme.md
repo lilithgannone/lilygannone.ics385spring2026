@@ -9,4 +9,4 @@
 
 ## Overview
 
-This project is an extension of the to-do list code. Added to the code are /chores and /camping routes. Both have a pre-set array with 3 items. Post, get, and functions have been updated. 
+This project is an extension of the original to-do list code. /chores and /camping routes have been added to the code. Each route includes a pre-set array with 3 items. POST and GET, as well as the initial array setup, have been updated. 
