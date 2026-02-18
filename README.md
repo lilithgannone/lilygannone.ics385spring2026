@@ -77,5 +77,5 @@ HW 4b: Read Me - [README for HW 4b](week4/qrcode-hw4b/readme.md)<br>
 HW 5b: f2cCalc - [index.js](week5/f2c/index.js), [f2cCalc.html](week5/f2c/f2cCalc.html)
 
 ### Week 5 - ExpressJS 
-HW 6a: To Do List - [To Do List Folder](week6/todolist-v1)
+HW 6a: To Do List - [To Do List Folder](week6/todolist-v1)<br>
 HW 6b: Random Course Name - [Random Course Name Folder](week6/4.4 Band Generator Project-Random Course Generator)
