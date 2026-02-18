@@ -9,5 +9,5 @@
 
 ## Overview
 
-This project is an extension of the original band name generator code. The code was altered to output a random course name instead of a band name. First, I analyzed the code. Then, I altered the EJS and js files so the correct information would be output to the user. The "locals" code has been updated on the EJS, and most of the code in the js file has also been updated. 
+This project is an extension of the original band name generator code. The code was altered to output a random course name instead of a band name. First, I analyzed the code. Then, I altered the EJS and js files so the correct information would be output to the user. The "locals" and header code have been updated on the EJS, and most of the code in the js file has also been updated. 
 
