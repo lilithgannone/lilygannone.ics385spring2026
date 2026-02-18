@@ -74,4 +74,7 @@ HW 4b: QR Code Project - [index.js](week4/qrcode-hw4b/index.js), [solution.js](w
 HW 4b: Read Me - [README for HW 4b](week4/qrcode-hw4b/readme.md)<br>
 
 ### Week 5 - ExpressJS 
-HW 4b: f2cCalc - [index.js](week5/f2c/index.js), [f2cCalc.html](week5/f2c/f2cCalc.html)
+HW 5b: f2cCalc - [index.js](week5/f2c/index.js), [f2cCalc.html](week5/f2c/f2cCalc.html)
+
+### Week 5 - ExpressJS 
+HW 6a: To Do List - [To Do List Folder](week6/)
