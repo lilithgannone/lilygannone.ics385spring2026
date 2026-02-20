@@ -3,14 +3,14 @@
 A web application to calculate and visualize average length of stay for Hawaii tourism data using MongoDB, Express.js, and vanilla JavaScript.
 
 ## Changes Made
-- Secure client-facing error messaging: safe error object responses. Detailed logging on server-side only. 
-- CDN validation added to both index.html files using integrity checks.
-- SRI protection added to external CDN scripts for Chart.js and PapaParse.
-- Import data-loss prevention: removed wipe and added a safer import process. 
-- MongoDB availability handling: added retry logic with limited attempts, connection event handling, and DB-availability gate middleware.
-- Dupicate prevention logic added to TourismData.js and server logic.
-- Timeout/ retry behavior improvements: added frontend timeout, enabled controlled retry for GET requests. No retry for POST.
-- Minor accessibility improvements: added a very minor chart text summary and live regions for loading/error/results. 
+- Secure client-facing error messaging: safe error object responses. Detailed logging on server-side only. Initially, raw error messages were returned to users.
+- CDN validation added to both index.html files using integrity checks to enhance security and prevent tampering. 
+- SRI protection added to external CDN scripts for Chart.js and PapaParse-- same issue as above. Initially, the external CDN script is loaded without integrity attributes, which can cause a security issue. 
+- Import data-loss prevention: removed wipe and added a safer import process. There was initially a data-loss risk. All records are deleted prior to validating that the import was successful. 
+- MongoDB availability handling: added retry logic with limited attempts, connection event handling, and DB-availability gate middleware. Initially, the app exited immediately if MongoDB is unavailable.
+- Dupicate prevention logic added to TourismData.js and server logic. Initially, there was nothing in place preventing duplicate group indicator datasets. This can create a data reliability issue. 
+- Timeout/ retry behavior improvements: added frontend timeout, enabled controlled retry for GET requests. No retry for POST. Initially, there was no request timeout or retry behavior and no messages for users, meaning they may be stuck waiting. 
+- Minor accessibility improvements: added a very minor chart text summary and live regions for loading/error/results. To improve accessibility, a small description of the data sets included was added to the UI, and live regions were implemented to assist screen reader users.
 - Prompted to add AI comments throughout the code explaining existing code and alterations. AI comments also added to the README files (not here, in their own separate section), noting changes. 
 - Updated /standalone/data.csv file to reflect more recent data. 
 
