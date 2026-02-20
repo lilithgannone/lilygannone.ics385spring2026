@@ -3,7 +3,7 @@
 A web application to calculate and visualize average length of stay for Hawaii tourism data using MongoDB, Express.js, and vanilla JavaScript.
 
 ## Changes Made
-- Secure client-facing error messaging: safe error object responses. Detailed logging on server-side only. Initially, raw error messages were returned to users.
+- Secure client-facing error messaging: added safe error responses. Detailed logging on server-side only. Initially, raw error messages were returned to users.
 - CDN validation added to both index.html files using integrity checks to enhance security and prevent tampering. 
 - SRI protection added to external CDN scripts for Chart.js and PapaParse-- same issue as above. Initially, the external CDN script is loaded without integrity attributes, which can cause a security issue. 
 - Import data-loss prevention: removed wipe and added a safer import process. There was initially a data-loss risk. All records are deleted prior to validating that the import was successful. 
