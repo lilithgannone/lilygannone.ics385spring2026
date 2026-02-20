@@ -79,4 +79,4 @@ HW 5b: f2cCalc - [index.js](week5/f2c/index.js), [f2cCalc.html](week5/f2c/f2cCal
 ### Week 5 - ExpressJS 
 HW 6a: To Do List - [To Do List Folder](week6/todolist-v1)<br>
 HW 6b: Random Course Name - [Random Course Name Folder](week6/4.4 Band Generator Project-Random Course Generator)<br>
-HW 6c: Code Review and Update of LOS Visitor Data - [hawaii.tourism.los.calculator.main Folder](week6/hawaii-tourism-los-calculator-main)
+HW 6c: Code Review and Update of LOS Visitor Data - [hawaii.tourism.los.calculator.main Folder](week6/hawaii-tourism-los-calculator-main), [Code Review](week6/hawaii-tourism-los-calculator-main/Code_Review_Template_JS_Express_LOS_Initial_Review.pdf)
